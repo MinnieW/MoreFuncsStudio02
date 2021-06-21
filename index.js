@@ -30,18 +30,6 @@ let sortArray = function(arr) {
 return out;  
 };
 
-// function recursionSort(arr) {
-//   let secountOut = []
-//   if (arr.length === 4) {
-//     secountOut.push(arr[0]);
-//     return secountOut;
-//   } else {
-//     secountOut.push(findMinValue(arr))
-//     arr.splice(findMinValue(arr),1)
-//     recursionSort(arr)
-//   }
-// }
-
 
 //Sample arrays for testing:
 let nums1 = [5, 10, 2, 42];
